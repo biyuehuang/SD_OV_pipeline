@@ -1,6 +1,8 @@
 Step 1: Install Openvion
 ```
 pip install openvino==2024.3
+
+pip install optimum[openvino] diffusers
 ```
 
 Step 2: download model
